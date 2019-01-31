@@ -16,3 +16,30 @@
 		<img src="https://img.shields.io/badge/release-v0.0.0-blue.svg" alt="Releases">
 	</a>
 </p>
+
+## To Use
+
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/ClockworkKettle/MccApp.git
+# Go into the repository
+cd ClockworkKettle
+# Install dependencies
+npm install
+```
+
+```bash
+# Run the app
+ionic serve
+# If the above fails you may need to run for browser instead
+ionic cordova run browser
+# If the above fails you may need to globally install ionic and cordova
+npm install -g ionic cordova
+```
+
+
+## License
+
+[MIT](LICENSE)
