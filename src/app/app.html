@@ -1,0 +1,42 @@
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="menu-list7">
+      <ion-item-sliding>
+        <ion-item color="none" id="menu-list-item28">
+          <ion-thumbnail item-left>
+            <img src="assets/img/cMaIog3xTMi9UxIpgQqR_web_hi_res_512.png" />
+          </ion-thumbnail>
+        </ion-item>
+        <ion-item-options side="left">
+          <button ion-button color="positive"></button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-list>
+    <ion-list id="menu-list1">
+      <ion-item color="none" menuClose="" on-click="goToHome()" id="menu-list-item1">
+        Home
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToAnnouncements()" id="menu-list-item2">
+        Announcements
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToRota()" id="menu-list-item3">
+        Rota
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToMembersLogin()" id="menu-list-item4">
+        Members
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToAboutUs()" id="menu-list-item5">
+        About Us
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
