@@ -25,7 +25,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 # Clone this repository
 git clone https://github.com/ClockworkKettle/MccApp.git
 # Go into the repository
-cd ClockworkKettle
+cd MccApp
 # Install dependencies
 npm install
 ```
