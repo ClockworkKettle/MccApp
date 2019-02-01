@@ -1,0 +1,6 @@
+{
+  "appId": "com.brokencapodevelopment.mccapp",
+  "appName": "MCCMobileApp",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

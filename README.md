@@ -13,7 +13,7 @@
 		<img src="https://img.shields.io/github/license/ClockworkKettle/MccApp.svg" alt="license">
 	</a>
 	<a href="https://github.com/ClockworkKettle/MccApp/releases">
-		<img src="https://img.shields.io/badge/release-v0.0.0-blue.svg" alt="Releases">
+		<img src="https://img.shields.io/badge/release-v0.0.1-blue.svg" alt="Releases">
 	</a>
 </p>
 
