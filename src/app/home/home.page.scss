@@ -2,3 +2,34 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.pn-ProductNav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+.pn-ProductNav_Contents {
+  float: left;
+}
+
+.pn-ProductNav_Link {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.2em;
+  font-family: -apple-system, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+
+  &+& {
+    margin-left: 11px;
+    padding-left: 11px;
+    border-left: 1px solid #eee;
+  }
+
+  &[aria-selected="true"] {
+    color: #111;
+  }
+}
