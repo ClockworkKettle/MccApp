@@ -18,7 +18,7 @@
   text-decoration: none;
   color: #888;
   font-size: 1.2em;
-  font-family: -apple-system, sans-serif;
+  font-family: var(--ion-font-family, inherit);
   display: inline-flex;
   align-items: center;
   min-height: 44px;

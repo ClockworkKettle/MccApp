@@ -13,7 +13,8 @@ const routes: Routes = [
   { path: 'members', loadChildren: './members/members.module#MembersPageModule' },
   { path: 'about-us', loadChildren: './about-us/about-us.module#AboutUsPageModule' },
   { path: 'members-login', loadChildren: './members-login/members-login.module#MembersLoginPageModule' },
-  { path: 'create-a-mcc-account', loadChildren: './create-a-mcc-account/create-a-mcc-account.module#CreateAMCCAccountPageModule' }
+  { path: 'create-a-mcc-account', loadChildren: './create-a-mcc-account/create-a-mcc-account.module#CreateAMCCAccountPageModule' },  { path: 'prayer', loadChildren: './prayer/prayer.module#PrayerPageModule' }
+
 ];
 
 @NgModule({
